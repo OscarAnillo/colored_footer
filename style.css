@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+body {
+  background: #000;
+  min-height: 100%;
+}
+
+.container {
+  background: #111;
+  width: 95%;
+  height: 500px;
+  margin: 200px auto;
+
+}
+
+.content {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  top: 120px;
+  border: 2px solid red;
+}
+
+.content h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 400;
+  width: 70%;
+  padding-bottom: 30px;
+
+}
+.social {
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+.social img {
+  width: 100%;
+  margin: 5px;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.email-info input {
+  display: inline;
+  height: 40px;
+  padding: 10px 50px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  text-align: center;
+}
+
+.email-info a {
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  height: 40px;
+  padding: 10px 40px;
+  position: absolute;
+  top: 190px;
+  left: 270px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+
+}
+
+.inner-footer {
+  height: 280px;
+  position: relative;
+  bottom: -200px;
+  width: 100%;
+  display: flex;
+
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  width: 20%;
+}
+
+.box1 {
+ background: #F9B988;
+}
+.box2 {
+  background: #D71F81;
+}
+.box3 {
+  background: #722E52;
+}
+.box4 {
+  background: #6E2CC4;
+}
+.box5 {
+  background: #1651B6;
+}
+.box6 {
+  background: #40892A;
+}
+
+.inner-footer h3 {
+  color: #fff;
+  padding: 15px 0 170px 15px;
+
+
+}
+.inner-footer p {
+  color: #fff;
+  padding-left: 15px;
+}
